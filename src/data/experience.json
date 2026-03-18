@@ -1,0 +1,63 @@
+[
+  {
+    "company": "Metlabs",
+    "title": "Frontend Developer",
+    "startDate": "Agosto 2024",
+    "endDate": "Octubre 2025",
+    "rol": [
+      " Desarrollo frontend con React, Next.js, JavaScript, TypeScript y TailwindCSS.",
+      "Integración de APIs mediante TanStack Query.",
+      "Gestión de datos y lógica relacionada con PostgreSQL.",
+      "Gestión de entornos utilizando Dokploy y Vercel, incluyendo administración de bases de datos, despliegues automáticos y depuración de errores en entornos controlados.",
+      "Uso de herramientas de IA generativa para optimizar tiempos de desarrollo, revisión de código y resolución de problemas técnicos.",
+      "Control de versiones con Github."
+    ],
+    "techStack": [
+      "React",
+      "Next.js",
+      "Typescript",
+      "Tailwind",
+      "CSS",
+      "Tanstack Query",
+      "Node",
+      "Postgres",
+      "Github",
+      "Vercel"
+    ]
+  },
+  {
+    "company": "Tipatip",
+    "title": "FullStack Developer",
+    "startDate": "Octubre 2023",
+    "endDate": "Agosto 2024",
+    "rol": [
+      "Desarrollo full-stack con React, Typescript y PHP.",
+      "Gestión de base de datos MySQL.",
+      "Implementación de interfaces responsivas con HTML, CSS y Bootstrap.",
+      "Integración de APIs externas y mejora de funcionalidades.",
+      "Control de versiones con Github."
+    ],
+    "techStack": [
+      "React",
+      "jQuery",
+      "Typescript",
+      "CSS",
+      "Bootstrap",
+      "MySQL",
+      "Gitlab",
+      "PHP"
+    ]
+  },
+  {
+    "company": "NTT Data",
+    "title": "Frontend Developer",
+    "startDate": "Octubre 2022",
+    "endDate": "Julio 2023",
+    "rol": [
+      "Desarrollo de nuevas funcionalidades en Angular y React",
+      "Maquetación con HTML y SCSS.",
+      "Control de versiones con Github."
+    ],
+    "techStack": ["React", "Angular", "Typescript", "CSS", "SASS", "Github"]
+  }
+]
