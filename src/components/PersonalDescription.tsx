@@ -1,3 +1,5 @@
+import { imgs } from "../images";
+
 export default function PersonalDescription() {
   return (
     <div className="flex flex-col items-center gap-8">
@@ -15,6 +17,14 @@ export default function PersonalDescription() {
         a colaborar con equipos multidisciplinares. Con gran posibilidad de
         adaptación a otros lenguajes como Vue o Angular.
       </p>
+
+      <div className="flex justify-between items-center gap-8">
+        <img src={imgs.react} alt="react" className="w-28 h-28" />
+        <img src={imgs.next} alt="next" className="w-28 h-28" />
+        <img src={imgs.typescript} alt="typescript" className="w-28 h-28" />
+        <img src={imgs.tailwind} alt="tailwind" className="w-28 h-28" />
+        <img src={imgs.css} alt="css" className="w-28 h-28" />
+      </div>
     </div>
   );
 }
