@@ -1,7 +1,7 @@
 export default function PersonalDescription() {
   return (
     <div className="flex flex-col items-center gap-8">
-      <h1 className="text-8xl text-center bg-clip-text text-transparent bg-linear-to-b from-white to-gray-400">
+      <h1 className="text-8xl text-center bg-clip-text text-transparent bg-linear-to-b from-orange-500 to-gray-900">
         Frontend Developer
       </h1>
 
