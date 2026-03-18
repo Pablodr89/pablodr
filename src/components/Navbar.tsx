@@ -9,7 +9,7 @@ export default function Navbar() {
           <img src={imgs.linkedin} alt="Linkedin" className="w-8 h-8" />
         </NavLink>
 
-        <NavLink to="https://github.com/pablodr1989" target="blank_">
+        <NavLink to="https://github.com/Pablodr1989" target="blank_">
           <img src={imgs.github} alt="GitHub" className="w-8 h-8" />
         </NavLink>
       </div>
