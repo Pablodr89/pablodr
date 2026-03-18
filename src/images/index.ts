@@ -11,7 +11,12 @@ import sass from "./sass.svg";
 import tailwind from "./tailwind.svg";
 import typescript from "./typescript.svg";
 import css from "./css.svg";
+import angular from "./angular.svg";
+import jquery from "./jquery.svg";
 import php from "./php.svg";
+import vercel from "./vercel.svg";
+import tanstack from "./tanstack.svg";
+import arrowDown from "./arrow-down.svg";
 
 export const imgs = {
   linkedin,
@@ -28,4 +33,9 @@ export const imgs = {
   typescript,
   css,
   php,
+  arrowDown,
+  angular,
+  jquery,
+  vercel,
+  tanstack,
 };

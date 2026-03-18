@@ -14,11 +14,12 @@
     ],
     "techStack": [
       "React",
-      "Next.js",
+      "Next",
       "Typescript",
+      "Javascript",
       "Tailwind",
       "CSS",
-      "Tanstack Query",
+      "Tanstack",
       "Node",
       "Postgres",
       "Github",
@@ -31,7 +32,7 @@
     "startDate": "Octubre 2023",
     "endDate": "Agosto 2024",
     "rol": [
-      "Desarrollo full-stack con React, Typescript y PHP.",
+      "Desarrollo full-stack con React, Typescript, Javascript y PHP.",
       "Gestión de base de datos MySQL.",
       "Implementación de interfaces responsivas con HTML, CSS y Bootstrap.",
       "Integración de APIs externas y mejora de funcionalidades.",
@@ -41,10 +42,11 @@
       "React",
       "jQuery",
       "Typescript",
+      "Javascript",
       "CSS",
       "Bootstrap",
       "MySQL",
-      "Gitlab",
+      "Github",
       "PHP"
     ]
   },
@@ -58,6 +60,14 @@
       "Maquetación con HTML y SCSS.",
       "Control de versiones con Github."
     ],
-    "techStack": ["React", "Angular", "Typescript", "CSS", "SASS", "Github"]
+    "techStack": [
+      "React",
+      "Angular",
+      "Typescript",
+      "Javascript",
+      "CSS",
+      "SASS",
+      "Github"
+    ]
   }
 ]
