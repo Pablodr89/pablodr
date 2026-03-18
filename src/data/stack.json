@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Frontend",
+    "stack": [
+      "React",
+      "Next",
+      "Typescript",
+      "Javascript",
+      "Vue",
+      "Angular",
+      "HTML",
+      "jQuery"
+    ]
+  },
+  {
+    "title": "UI/Styling",
+    "stack": ["TailwindCSS", "CSS", "SASS", "Bootstrap"]
+  },
+  {
+    "title": "Componentes y Design Systems",
+    "stack": [
+      "Desarrollo de librerías de componentes reutilizables en React y Storybook"
+    ]
+  },
+  {
+    "title": "Estado y Datos",
+    "stack": ["Tanstack Query", "Zustand", "Pinia", "Fetch", "Axios"]
+  },
+  {
+    "title": "Backend",
+    "stack": ["Node.js", "PHP", "Java"]
+  },
+  {
+    "title": "Base de Datos",
+    "stack": ["PostgreSQL", "NoSQL", "SQL", "MySQL"]
+  },
+  {
+    "title": "SEO y Rendimiento Web",
+    "stack": [
+      "Lighthouse",
+      "Auditoría SEO técnica",
+      "Optimización de Core Web Vitals"
+    ]
+  },
+  {
+    "title": "Testing",
+    "stack": ["Testing unitario y de integración con Jest"]
+  },
+  {
+    "title": "Herramientas IA",
+    "stack": [
+      "Claude, Copilot, Gemini, ChatGPT (code review, generación de código, debugging, documentación)"
+    ]
+  },
+  {
+    "title": "Control de Versiones",
+    "stack": ["Git", "Github"]
+  },
+  {
+    "title": "CI/CD y Devops",
+    "stack": [
+      "Despliegue de entornos con Vercel y Dokploy",
+      "Creación de pipelines con GitHub Actions.",
+      "Gestión de entornos dev, staging y producción"
+    ]
+  }
+]

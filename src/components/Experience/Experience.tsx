@@ -10,11 +10,11 @@ export default function Experience() {
         Experiencia profesional
       </h2>
 
-      <section className="flex flex-col items-center gap-8 mt-12 w-full">
+      <div className="flex flex-col items-center gap-8 mt-12 w-full">
         {workExperience.map((work: ExperienceData, i: number) => (
           <ExperienceItem key={i} experience={work} />
         ))}
-      </section>
+      </div>
     </section>
   );
 }

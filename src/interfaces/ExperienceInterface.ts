@@ -4,5 +4,5 @@ export interface ExperienceData {
   startDate: string;
   endDate: string;
   rol: string[];
-  techStack?: string[];
+  techStack: string[];
 }

@@ -12,7 +12,7 @@ export default function ExperienceItem({ experience }: ExperienceItemProps) {
 
   return (
     <div
-      className={` border-4 border-orange-600 rounded-lg p-8 w-full overflow-hidden transition-all duration-500 ${showInfo ? "max-h-120" : "max-h-28"}`}
+      className={` border-4 border-orange-600 rounded-lg p-8 w-full overflow-hidden transition-all duration-500 shadow-md ${showInfo ? "max-h-120" : "max-h-28"}`}
       onClick={() => setShowInfo((s: boolean) => !s)}
     >
       <div className="flex flex-col items-center gap-5 cursor-pointer">
@@ -45,7 +45,7 @@ export default function ExperienceItem({ experience }: ExperienceItemProps) {
             </ul>
 
             <div className="flex justify-center items-center gap-5 w-full">
-              {techStack?.map((tech, i) => (
+              {techStack.map((tech, i) => (
                 <img
                   key={i}
                   src={imgs[tech.toLowerCase() as keyof typeof imgs]}
