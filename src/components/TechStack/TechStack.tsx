@@ -2,12 +2,12 @@ import stackData from "../../data/stack.json";
 
 export default function TechStack() {
   return (
-    <section className="flex flex-col items-center gap-5 w-full">
-      <h2 className="text-7xl text-center bg-clip-text text-transparent bg-linear-to-b from-orange-500 to-gray-900">
+    <section className="flex flex-col items-center gap-10 w-full">
+      <h2 className="text-5xl lg:text-7xl text-center bg-clip-text text-transparent bg-linear-to-b from-orange-500 to-gray-900">
         Stack tecnológico
       </h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12 w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 w-full">
         {stackData.map((stack, i) => (
           <div
             key={i}

@@ -5,7 +5,7 @@ import TechStack from "../components/TechStack/TechStack";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center gap-36">
+    <div className="flex flex-col items-center gap-12 lg:gap-24">
       <PersonalDescription />
       <Experience />
       <TechStack />

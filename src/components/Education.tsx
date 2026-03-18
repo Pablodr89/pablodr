@@ -2,12 +2,12 @@ import { imgs } from "../images";
 
 export default function Education() {
   return (
-    <section className="flex flex-col gap-5 w-full">
-      <h2 className="text-7xl text-center bg-clip-text text-transparent bg-linear-to-b from-orange-500 to-gray-900">
+    <section className="flex flex-col gap-10 w-full">
+      <h2 className="text-5xl lg:text-7xl text-center bg-clip-text text-transparent bg-linear-to-b from-orange-500 to-gray-900">
         Educación
       </h2>
 
-      <div className="flex  gap-5 items-start border-2 border-orange-600 rounded-lg p-5">
+      <div className="flex gap-5 items-start border-2 border-orange-600 rounded-lg p-5">
         <img src={imgs.degree} alt="education" />
 
         <div className="flex flex-col gap-1">
