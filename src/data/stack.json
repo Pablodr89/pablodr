@@ -14,7 +14,7 @@
   },
   {
     "title": "UI/Styling",
-    "stack": ["TailwindCSS", "CSS", "SASS", "Bootstrap"]
+    "stack": ["CSS", "SASS", "TailwindCSS", "Bootstrap"]
   },
   {
     "title": "Componentes y Design Systems",

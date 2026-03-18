@@ -24,9 +24,9 @@ export default function ExperienceItem({ experience }: ExperienceItemProps) {
               className={`${showInfo ? "rotate-180" : ""} w-8 h-8 cursor-pointer transition-all duration-300`}
             />
 
-            <p className="text-orange-600 text-2xl">{company}:</p>
+            <p className="text-orange-500 text-2xl">{company}:</p>
 
-            <p className="text-orange-600 text-2xl">{title} </p>
+            <p className="text-orange-500 text-2xl">{title} </p>
           </div>
 
           <span>

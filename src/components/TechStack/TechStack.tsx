@@ -3,7 +3,7 @@ import stackData from "../../data/stack.json";
 export default function TechStack() {
   return (
     <section className="flex flex-col items-center gap-5 w-full">
-      <h2 className="text-7xl text-center bg-clip-text text-orange-600">
+      <h2 className="text-7xl text-center bg-clip-text text-orange-500">
         Stack tecnológico
       </h2>
 
@@ -11,9 +11,9 @@ export default function TechStack() {
         {stackData.map((stack, i) => (
           <div
             key={i}
-            className="flex flex-col gap-5 w-full border-2 border-orange-600 rounded-lg p-5"
+            className="flex flex-col gap-5 w-full border-2 border-orange-500 rounded-lg p-5"
           >
-            <h3 className="text-xl text-start text-orange-600">
+            <h3 className="text-xl text-start text-orange-500">
               {stack.title}
             </h3>
 

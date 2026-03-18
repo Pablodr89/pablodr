@@ -16,6 +16,7 @@ import jquery from "./jquery.svg";
 import php from "./php.svg";
 import vercel from "./vercel.svg";
 import tanstack from "./tanstack.svg";
+import degree from "./degree.svg";
 import arrowDown from "./arrow-down.svg";
 
 export const imgs = {
@@ -38,4 +39,5 @@ export const imgs = {
   jquery,
   vercel,
   tanstack,
+  degree,
 };
