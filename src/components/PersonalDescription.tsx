@@ -6,7 +6,10 @@ export default function PersonalDescription() {
   const favStack: FavStackData[] = favStackData;
 
   return (
-    <section className="flex items-center justify-center pt-32 pb-20 px-6 overflow-hidden">
+    <section
+      className="flex items-center justify-center pt-32 pb-20 px-6 overflow-hidden"
+      id="personal"
+    >
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center z-10">
         <div className="lg:col-span-10">
           <span className="inline-block py-1 px-3 rounded-full bg-surface-container-highest text-secondary label-md font-medium mb-6">
