@@ -1,3 +1,4 @@
+import { imgs } from "../../images";
 import type { StackData } from "../../interfaces/StackInterface";
 import { getIconStack } from "../../utils/iconStack";
 
@@ -5,9 +6,11 @@ export default function TechStackItem({ item }: { item: StackData }) {
   return (
     <div className="flex flex-col gap-3 bg-surface-container-low p-6 rounded-xl h-full border border-outline-variant/20 hover:border-primary/40 transition-colors group">
       <div className="flex items-center gap-3">
-        <span className="material-symbols-outlined text-primary text-3xl">
-          {getIconStack(item.title)}
-        </span>
+        <img
+          src={imgs[getIconStack(item.title) as keyof typeof imgs]}
+          alt={item.title}
+          className="w-6 h-6"
+        />
 
         <h3 className="text-xl font-bold text-on-surface">{item.title}</h3>
       </div>

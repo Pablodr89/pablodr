@@ -1,3 +1,5 @@
+import { imgs } from "../../images";
+
 export default function Education() {
   return (
     <section className="py-8 lg:py-16 px-6" id="educacion">
@@ -22,15 +24,13 @@ export default function Education() {
           </div>
 
           <div className="bg-surface-container-low p-8 rounded-xl flex flex-col justify-center gap-3 items-center text-center">
-            <span className="material-symbols-outlined text-2xl text-secondary">
-              workspace_premium
-            </span>
+            <img src={imgs.degree} alt="degree" className="w-8 h-8" />
 
             <h3 className="text-2xl font-bold text-on-surface">
               Aprendizaje Continuo
             </h3>
 
-            <p className="text-on-surface-variant mb-6 text-justify">
+            <p className="text-on-surface-variant text-justify">
               Comprometido con la evolución constante de la tecnología,
               manteniéndome actualizado a través de cursos, talleres y proyectos
               personales para dominar las últimas tendencias y herramientas del

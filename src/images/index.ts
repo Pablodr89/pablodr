@@ -18,6 +18,17 @@ import vercel from "./vercel.svg";
 import tanstack from "./tanstack.svg";
 import degree from "./degree.svg";
 import link from "./link.svg";
+import database from "./database.svg";
+import launch from "./launch.svg";
+import palette from "./palette.svg";
+import token from "./token.svg";
+import dns from "./dns.svg";
+import code from "./code.svg";
+import speed from "./speed.svg";
+import hub from "./hub.svg";
+import ai from "./ai.svg";
+import fact_check from "./fact_check.svg";
+import account_tree from "./account_tree.svg";
 import arrowDown from "./arrow-down.svg";
 
 export const imgs = {
@@ -42,4 +53,15 @@ export const imgs = {
   tanstack,
   degree,
   link,
+  database,
+  launch,
+  palette,
+  token,
+  dns,
+  fact_check,
+  account_tree,
+  code,
+  speed,
+  hub,
+  ai,
 };

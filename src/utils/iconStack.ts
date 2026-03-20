@@ -1,7 +1,7 @@
 export function getIconStack(tech: string) {
   switch (tech) {
     case "Frontend":
-      return "developer_mode_tv";
+      return "code";
     case "UI/Styling":
       return "palette";
     case "Componentes y Design Systems":
@@ -17,7 +17,7 @@ export function getIconStack(tech: string) {
     case "Testing":
       return "fact_check";
     case "Herramientas IA":
-      return "psychology";
+      return "ai";
     case "Control de Versiones":
       return "account_tree";
     case "CI/CD y DevOps":
