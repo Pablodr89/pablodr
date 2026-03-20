@@ -66,7 +66,7 @@ export default function Navbar() {
         </div>
 
         <NavLink
-          className="primary-btn-gradient text-on-primary-fixed px-6 py-2.5 rounded-md font-medium scale-95 active:scale-90 transition-transform hover:primary-btn-gradient/50"
+          className="primary-btn-gradient text-on-primary-fixed px-6 py-2.5 rounded-md font-medium duration-300 transition-colors hover:primary-btn-gradient/50"
           to="#contacto"
           onClick={(e) => {
             e.preventDefault();
