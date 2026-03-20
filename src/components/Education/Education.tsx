@@ -22,7 +22,7 @@ export default function Education() {
           </div>
 
           <div className="bg-surface-container-low p-8 rounded-xl flex flex-col justify-center gap-3 items-center text-center">
-            <span className="material-symbols-outlined text-6xl text-secondary">
+            <span className="material-symbols-outlined text-2xl text-secondary">
               workspace_premium
             </span>
 
