@@ -1,17 +1,92 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
-:root {
-  --background: #000000;
-  --font-sans: "Roboto", sans-serif;
+@theme {
+  --color-surface-dim: #0b1326;
+  --color-primary-fixed: #c4e7ff;
+  --color-primary-fixed-dim: #7bd0ff;
+  --color-surface-container-low: #131b2e;
+  --color-primary-container: #38bdf8;
+  --color-secondary-fixed: #ffdcc7;
+  --color-primary: #8ed5ff;
+  --color-on-tertiary: #233143;
+  --color-surface-container-lowest: #060e20;
+  --color-background: #0b1326;
+  --color-outline-variant: #3e484f;
+  --color-on-primary-fixed-variant: #004c69;
+  --color-secondary-fixed-dim: #ffb787;
+  --color-on-tertiary-fixed-variant: #39485a;
+  --color-surface-variant: #2d3449;
+  --color-on-primary-fixed: #001e2c;
+  --color-on-secondary-fixed: #311300;
+  --color-tertiary: #becee4;
+  --color-error: #ffb4ab;
+  --color-tertiary-fixed: #d4e4fa;
+  --color-on-surface: #dae2fd;
+  --color-error-container: #93000a;
+  --color-tertiary-container: #a3b2c7;
+  --color-surface-tint: #7bd0ff;
+  --color-on-primary-container: #004965;
+  --color-inverse-on-surface: #283044;
+  --color-outline: #87929a;
+  --color-on-error: #690005;
+  --color-on-surface-variant: #bdc8d1;
+  --color-on-secondary: #502400;
+  --color-on-tertiary-container: #364557;
+  --color-surface-container-high: #222a3d;
+  --color-surface: #0b1326;
+  --color-on-background: #dae2fd;
+  --color-inverse-primary: #00668a;
+  --color-on-secondary-fixed-variant: #723600;
+  --color-surface-bright: #31394d;
+  --color-secondary: #ffb787;
+  --color-inverse-surface: #dae2fd;
+  --color-surface-container: #171f33;
+  --color-on-tertiary-fixed: #0d1c2d;
+  --color-surface-container-highest: #2d3449;
+  --color-secondary-container: #ff8000;
+  --color-on-error-container: #ffdad6;
+  --color-tertiary-fixed-dim: #b9c8de;
+  --color-on-secondary-container: #5e2b00;
+  --color-on-primary: #00354a;
 }
 
-* {
-  font-family: Inter;
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 body {
-  background: var(--background);
-  font-family: var(--font-sans);
+  background-color: #0b1326;
+  color: #dae2fd;
+  font-family: "Inter", sans-serif;
+}
+
+.glass-nav {
+  background: rgba(45, 52, 73, 0.6);
+  backdrop-filter: blur(20px);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #8ed5ff 0%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+}
+
+.primary-btn-gradient {
+  background: linear-gradient(135deg, #8ed5ff 0%, #38bdf8 100%);
+  transition: all 0.3s ease;
+}
+
+.primary-btn-gradient:hover {
+  background: linear-gradient(135deg, #7bd0ff 0%, #0ea5e9 100%);
+}
+
+.ghost-border {
+  border: 1px solid rgba(62, 72, 79, 0.15);
 }

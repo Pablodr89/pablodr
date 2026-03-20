@@ -1,33 +1,27 @@
 import stackData from "../../data/stack.json";
+import TechStackItem from "./TechStackItem";
 
 export default function TechStack() {
   return (
-    <section className="flex flex-col items-center gap-10 w-full">
-      <h2 className="text-5xl lg:text-7xl text-center bg-clip-text text-transparent bg-linear-to-b from-orange-500 to-gray-900">
-        Stack tecnológico
-      </h2>
+    <section className="py-24 px-6 bg-surface-container-lowest" id="stack">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-on-surface mb-6">
+            Stack Tecnológico
+          </h2>
+          <p className="text-on-surface-variant max-w-2xl mx-auto">
+            Herramientas y lenguajes que domino para dar vida a visiones
+            digitales complejas.
+          </p>
+        </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 w-full">
-        {stackData.map((stack, i) => (
-          <div
-            key={i}
-            className="flex flex-col gap-5 w-full border-2 border-orange-500 rounded-lg p-5"
-          >
-            <h3 className="text-xl text-start text-orange-500">
-              {stack.title}
-            </h3>
-
-            <ul
-              className={`${stack.stack.length === 1 ? "flex flex-col" : "grid grid-cols-3"} gap-y-2 gap-x-4 list-disc list-outside pl-5`}
-            >
-              {stack.stack.map((item, j) => (
-                <li key={j} className="text-lg text-start text-gray-300">
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          {stackData.map((item, index) => (
+            <div key={index}>
+              <TechStackItem item={item} />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

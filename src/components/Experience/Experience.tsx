@@ -6,15 +6,20 @@ export default function Experience() {
   const workExperience: ExperienceData[] = experienceData;
 
   return (
-    <section className="flex flex-col items-center gap-10 w-full">
-      <h2 className="text-5xl lg:text-7xl text-center bg-clip-text text-transparent bg-linear-to-b from-orange-500 to-gray-900">
-        Experiencia profesional
-      </h2>
+    <section
+      className="py-24 px-6 bg-surface-container-lowest"
+      id="experiencia"
+    >
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-on-surface mb-16 text-center">
+          Trayectoria Profesional
+        </h2>
 
-      <div className="flex flex-col items-center gap-8 w-full">
-        {workExperience.map((work: ExperienceData, i: number) => (
-          <ExperienceItem key={i} experience={work} />
-        ))}
+        <div className="flex flex-col items-center gap-3">
+          {workExperience.map((experience, index) => (
+            <ExperienceItem key={index} experience={experience} />
+          ))}
+        </div>
       </div>
     </section>
   );

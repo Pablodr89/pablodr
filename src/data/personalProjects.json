@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Batallas Pokemon",
+    "image": "/pokemon-logo.svg",
+    "description": "Listado Pokemon con filtrado y pudiendo crear equipos de 6 Pokemon para ponerlos a combatir.",
+    "stack": [
+      "React",
+      "JavaScript",
+      "Tanstack Query",
+      "TailwindCSS",
+      "Zustand"
+    ],
+    "link": "",
+    "github": "https://github.com/Pablodr89/prueba-velora"
+  },
+  {
+    "title": "Shingeki No Kyojin API (En desarrollo)",
+    "image": "/attack-on-titan-logo.svg",
+    "description": "Listado de personajes de Attack on Titan con filtrado y detalle de cada personaje.",
+    "stack": [
+      "React",
+      "Next",
+      "Typescript",
+      "Tanstack Query",
+      "TailwindCSS",
+      "Zustand"
+    ],
+    "link": "",
+    "github": ""
+  },
+  {
+    "title": "Dragon Ball API (En desarrollo)",
+    "image": "/dragon-ball-z-logo.svg",
+    "description": "Listado de personajes de Dragon Ball con filtrado y detalle de cada personaje.",
+    "stack": [
+      "React",
+      "Typescript",
+      "Tanstack Query",
+      "TailwindCSS",
+      "Zustand"
+    ],
+    "link": "",
+    "github": ""
+  }
+]

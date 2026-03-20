@@ -48,16 +48,14 @@
   },
   {
     "title": "Herramientas IA",
-    "stack": [
-      "Claude, Copilot, Gemini, ChatGPT (code review, generación de código, debugging, documentación)"
-    ]
+    "stack": ["Claude", "Copilot", "Gemini", "ChatGPT"]
   },
   {
     "title": "Control de Versiones",
     "stack": ["Git", "Github"]
   },
   {
-    "title": "CI/CD y Devops",
+    "title": "CI/CD y DevOps",
     "stack": [
       "Despliegue de entornos con Vercel y Dokploy",
       "Creación de pipelines con GitHub Actions.",

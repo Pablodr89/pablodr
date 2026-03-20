@@ -1,49 +1,38 @@
-import { imgs } from "../images";
+import favStackData from "../data/favStack.json";
+import type { FavStackData } from "../interfaces/StackInterface";
+import Stack from "./Stack";
 
 export default function PersonalDescription() {
+  const favStack: FavStackData[] = favStackData;
+
   return (
-    <div className="flex flex-col items-center gap-4 lg:gap-8">
-      <h1 className="text-5xl lg:text-8xl text-center bg-clip-text text-transparent bg-linear-to-b from-orange-500 to-gray-900">
-        Frontend Developer
-      </h1>
+    <section className="flex items-center justify-center pt-32 pb-20 px-6 overflow-hidden">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center z-10">
+        <div className="lg:col-span-10">
+          <span className="inline-block py-1 px-3 rounded-full bg-surface-container-highest text-secondary label-md font-medium mb-6">
+            Disponibilidad inmediata
+          </span>
 
-      <h3 className="text-2xl lg:text-5xl text-center">
-        Pablo Domínguez Romero
-      </h3>
+          <h1 className="text-5xl md:text-8xl font-extrabold tracking-tighter mb-8 leading-[0.95] text-on-surface">
+            Frontend Developer
+          </h1>
 
-      <p className="text-lg lg:text-2xl text-center text-gray-300">
-        Frontend Developer con 3 años de experiencia en React, Next.js,
-        TypeScript y TailwindCSS. Especializado en la construcción de interfaces
-        escalables, consumo de APIs, gestión de estado y desarrollo de
-        aplicaciones web modernas. Acostumbrado a trabajar en entornos ágiles y
-        a colaborar con equipos multidisciplinares. Con gran posibilidad de
-        adaptación a otros lenguajes como Vue o Angular.
-      </p>
+          <p className="text-xl md:text-2xl text-on-surface-variant max-w-5xl mb-12 leading-relaxed">
+            Frontend Developer con 3 años de experiencia en React, Next.js,
+            TypeScript y TailwindCSS. Especializado en la construcción de
+            interfaces escalables, consumo de APIs, gestión de estado y
+            desarrollo de aplicaciones web modernas. Acostumbrado a trabajar en
+            entornos ágiles y a colaborar con equipos multidisciplinares. Con
+            gran posibilidad de adaptación a otros lenguajes como Vue o Angular.
+          </p>
 
-      <div className="grid grid-cols-3 lg:flex lg:justify-between items-center gap-8">
-        <img
-          src={imgs.react}
-          alt="react"
-          className="w-20 h-20 lg:w-28 lg:h-28"
-        />
-        <img src={imgs.next} alt="next" className="w-20 h-20 lg:w-28 lg:h-28" />
-        <img
-          src={imgs.typescript}
-          alt="typescript"
-          className="w-20 h-20 lg:w-28 lg:h-28"
-        />
-        <img
-          src={imgs.tailwind}
-          alt="tailwind"
-          className="w-20 h-20 lg:w-28 lg:h-28"
-        />
-        <img src={imgs.css} alt="css" className="w-20 h-20 lg:w-28 lg:h-28" />
-        <img
-          src={imgs.tanstack}
-          alt="tanstack"
-          className="w-20 h-20 lg:w-28 lg:h-28"
-        />
+          <div className="flex flex-wrap gap-4">
+            {favStack[0].stack.map((tech, index) => (
+              <Stack key={index} tech={tech} />
+            ))}
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
