@@ -20,7 +20,7 @@ export default function PersonalDescription() {
             Frontend Developer
           </h1>
 
-          <p className="text-xl md:text-2xl text-on-surface-variant max-w-5xl mb-12 leading-relaxed">
+          <p className="text-xl md:text-2xl text-on-surface-variant max-w-5xl mb-12 leading-relaxed text-justify">
             Frontend Developer con 3 años de experiencia en React, Next.js,
             TypeScript y TailwindCSS. Especializado en la construcción de
             interfaces escalables, consumo de APIs, gestión de estado y

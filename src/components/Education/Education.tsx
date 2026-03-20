@@ -21,16 +21,16 @@ export default function Education() {
             </div>
           </div>
 
-          <div className="bg-surface-container-low p-8 rounded-xl flex flex-col justify-center items-center text-center">
-            <span className="material-symbols-outlined text-6xl text-secondary mb-4">
+          <div className="bg-surface-container-low p-8 rounded-xl flex flex-col justify-center gap-3 items-center text-center">
+            <span className="material-symbols-outlined text-6xl text-secondary">
               workspace_premium
             </span>
 
-            <h3 className="text-2xl font-bold text-on-surface mb-4">
+            <h3 className="text-2xl font-bold text-on-surface">
               Aprendizaje Continuo
             </h3>
 
-            <p className="text-on-surface-variant mb-6">
+            <p className="text-on-surface-variant mb-6 text-justify">
               Comprometido con la evolución constante de la tecnología,
               manteniéndome actualizado a través de cursos, talleres y proyectos
               personales para dominar las últimas tendencias y herramientas del

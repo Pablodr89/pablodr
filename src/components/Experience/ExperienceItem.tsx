@@ -32,10 +32,11 @@ export default function ExperienceItem({ experience }: ExperienceItemProps) {
 
           <ul className="flex flex-col items-start gap-1 list-disc list-inside marker:text-on-surface-variant">
             {rol.map((item, index) => (
-              <li key={index}>
-                <span className="text-on-surface-variant leading-relaxed">
-                  {item}
-                </span>
+              <li
+                key={index}
+                className="text-on-surface-variant leading-relaxed text-justify"
+              >
+                {item}
               </li>
             ))}
           </ul>

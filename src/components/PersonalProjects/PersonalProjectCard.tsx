@@ -32,7 +32,7 @@ export default function PersonalProjectCard({
 
         {screenWidth < MOBILE_SIZE && <Links link={link} github={github} />}
 
-        <p className="text-on-surface-variant">{description}</p>
+        <p className="text-on-surface-variant text-justify">{description}</p>
 
         <div className="flex flex-wrap gap-3">
           {stack.map((tech, index) => (
