@@ -7,7 +7,7 @@ export default function Experience() {
 
   return (
     <section
-      className="py-24 px-6 bg-surface-container-lowest"
+      className="py-6 lg:py-24 px-6 bg-surface-container-lowest"
       id="experiencia"
     >
       <div className="max-w-7xl mx-auto">

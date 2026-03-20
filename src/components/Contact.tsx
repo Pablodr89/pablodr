@@ -4,7 +4,7 @@ import { imgs } from "../images";
 export default function Contact() {
   return (
     <section
-      className="py-32 px-6 relative overflow-hidden bg-surface-container-lowest"
+      className="py-6 lg:py-32 px-6 relative overflow-hidden bg-surface-container-lowest"
       id="contacto"
     >
       <div className="max-w-5xl mx-auto text-center relative z-10">
@@ -19,7 +19,7 @@ export default function Contact() {
           padoro89@gmail.com
         </a>
 
-        <div className="flex flex-col md:flex-row justify-center gap-6 mt-8">
+        <div className="flex flex-col md:flex-row justify-center gap-6">
           <Link
             className="flex items-center justify-center gap-3 bg-surface-container-high px-10 py-5 rounded-xl text-xl font-bold text-on-surface transition-all hover:bg-surface-variant group"
             to="https://www.linkedin.com/in/pablodr1989/"

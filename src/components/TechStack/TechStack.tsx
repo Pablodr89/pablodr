@@ -3,12 +3,16 @@ import TechStackItem from "./TechStackItem";
 
 export default function TechStack() {
   return (
-    <section className="py-24 px-6 bg-surface-container-lowest" id="stack">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
+    <section
+      className="py-6 lg:py-24 px-6 bg-surface-container-lowest"
+      id="stack"
+    >
+      <div className="flex flex-col gap-10 max-w-7xl mx-auto">
+        <div className="text-center">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-on-surface mb-6">
             Stack Tecnológico
           </h2>
+
           <p className="text-on-surface-variant max-w-2xl mx-auto">
             Herramientas y lenguajes que domino para dar vida a visiones
             digitales complejas.

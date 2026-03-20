@@ -1,13 +1,13 @@
 import favStackData from "../data/favStack.json";
 import type { FavStackData } from "../interfaces/StackInterface";
-import Stack from "./Stack";
+import StackItem from "./StackItem";
 
 export default function PersonalDescription() {
   const favStack: FavStackData[] = favStackData;
 
   return (
     <section
-      className="flex items-center justify-center pt-32 pb-20 px-6 overflow-hidden"
+      className="flex items-center justify-center pt-32 pb-10 lg:pb-20 px-6 overflow-hidden"
       id="personal"
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center z-10">
@@ -31,7 +31,7 @@ export default function PersonalDescription() {
 
           <div className="flex flex-wrap gap-4">
             {favStack[0].stack.map((tech, index) => (
-              <Stack key={index} tech={tech} />
+              <StackItem key={index} tech={tech} />
             ))}
           </div>
         </div>

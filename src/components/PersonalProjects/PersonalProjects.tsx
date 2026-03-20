@@ -6,7 +6,7 @@ export default function PersonalProjects() {
   const personalProjects: ProjectData[] = projectsData;
 
   return (
-    <section className="py-24 px-6" id="proyectos">
+    <section className="py-6 lg:py-24 px-6" id="proyectos">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
           <div>

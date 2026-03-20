@@ -1,6 +1,6 @@
-import { Link } from "react-router";
 import type { ProjectData } from "../../interfaces/PersonalProjectInterface";
-import { imgs } from "../../images";
+import useScreenWidth from "../../hooks/useScreenWidth";
+import Links from "./Links";
 
 export default function PersonalProjectCard({
   title,
@@ -10,6 +10,9 @@ export default function PersonalProjectCard({
   link,
   github,
 }: ProjectData) {
+  const screenWidth = useScreenWidth();
+  const MOBILE_SIZE: number = 700;
+
   return (
     <div className="group relative bg-surface-container-low rounded-xl overflow-hidden transition-all duration-500 hover:bg-surface-container-high">
       <div className="aspect-video w-full overflow-hidden">
@@ -20,34 +23,18 @@ export default function PersonalProjectCard({
         />
       </div>
 
-      <div className="p-8">
-        <div className="flex justify-between items-start mb-4">
+      <div className="flex flex-col gap-5 p-8">
+        <div className="flex justify-between items-start">
           <h3 className="text-2xl font-bold text-on-surface">{title}</h3>
 
-          <div className="flex gap-5">
-            <Link
-              to={link}
-              className="text-outline"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={imgs.link} alt="Link" className="w-4 h-4" />
-            </Link>
-
-            <Link
-              to={github}
-              className="text-outline"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={imgs.github} alt="Github" className="w-4 h-4" />
-            </Link>
-          </div>
+          {screenWidth > MOBILE_SIZE && <Links link={link} github={github} />}
         </div>
 
-        <p className="text-on-surface-variant mb-6">{description}</p>
+        {screenWidth < MOBILE_SIZE && <Links link={link} github={github} />}
 
-        <div className="flex gap-3">
+        <p className="text-on-surface-variant">{description}</p>
+
+        <div className="flex flex-wrap gap-3">
           {stack.map((tech, index) => (
             <span
               key={index}
