@@ -7,11 +7,11 @@ export default function Experience() {
 
   return (
     <section
-      className="py-6 lg:py-24 px-6 bg-surface-container-lowest"
+      className="py-8 lg:py-24 px-6 bg-surface-container-lowest"
       id="experiencia"
     >
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-on-surface mb-16 text-center">
+      <div className="flex flex-col gap-16 max-w-7xl mx-auto">
+        <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-on-surface text-center">
           Trayectoria Profesional
         </h2>
 

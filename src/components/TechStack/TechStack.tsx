@@ -4,10 +4,10 @@ import TechStackItem from "./TechStackItem";
 export default function TechStack() {
   return (
     <section
-      className="py-6 lg:py-24 px-6 bg-surface-container-lowest"
+      className="py-8 lg:py-24 px-6 bg-surface-container-lowest"
       id="stack"
     >
-      <div className="flex flex-col gap-10 max-w-7xl mx-auto">
+      <div className="flex flex-col gap-16 max-w-7xl mx-auto">
         <div className="text-center">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-on-surface mb-6">
             Stack Tecnológico

@@ -1,6 +1,6 @@
 import useScreenWidth from "../../hooks/useScreenWidth";
 import type { ExperienceData } from "../../interfaces/ExperienceInterface";
-import StackItem from "../StackItem";
+import StackItem from "../Shared/StackItem";
 
 interface ExperienceItemProps {
   experience: ExperienceData;

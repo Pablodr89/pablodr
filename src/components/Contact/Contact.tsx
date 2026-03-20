@@ -1,10 +1,10 @@
 import { Link } from "react-router";
-import { imgs } from "../images";
+import { imgs } from "../../images";
 
 export default function Contact() {
   return (
     <section
-      className="py-6 lg:py-32 px-6 relative overflow-hidden bg-surface-container-lowest"
+      className="py-6 lg:py-16 px-6 relative overflow-hidden bg-surface-container-lowest"
       id="contacto"
     >
       <div className="max-w-5xl mx-auto text-center relative z-10">

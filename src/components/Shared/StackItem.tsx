@@ -1,4 +1,4 @@
-import { imgs } from "../images";
+import { imgs } from "../../images";
 
 export default function Stack({ tech }: { tech: string }) {
   return (

@@ -1,6 +1,6 @@
-import favStackData from "../data/favStack.json";
-import type { FavStackData } from "../interfaces/StackInterface";
-import StackItem from "./StackItem";
+import favStackData from "../../data/favStack.json";
+import type { FavStackData } from "../../interfaces/StackInterface";
+import StackItem from "../Shared/StackItem";
 
 export default function PersonalDescription() {
   const favStack: FavStackData[] = favStackData;
