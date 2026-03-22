@@ -34,7 +34,7 @@ export default function ExperienceItem({ experience }: ExperienceItemProps) {
             {rol.map((item, index) => (
               <li
                 key={index}
-                className="text-on-surface-variant leading-relaxed text-justify"
+                className="text-on-surface-variant leading-relaxed lg:text-justify"
               >
                 {item}
               </li>
