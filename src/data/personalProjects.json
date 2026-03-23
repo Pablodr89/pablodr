@@ -27,19 +27,5 @@
     ],
     "link": "",
     "github": "https://github.com/Pablodr89/shingeki.git"
-  },
-  {
-    "title": "Dragon Ball API (En desarrollo)",
-    "image": "/dragon-ball-z-logo.svg",
-    "description": "Listado de personajes de Dragon Ball con filtrado y detalle de cada personaje.",
-    "stack": [
-      "React",
-      "Typescript",
-      "Tanstack Query",
-      "TailwindCSS",
-      "Zustand"
-    ],
-    "link": "",
-    "github": ""
   }
 ]
