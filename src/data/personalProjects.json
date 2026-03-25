@@ -25,7 +25,7 @@
       "TailwindCSS",
       "Zustand"
     ],
-    "link": "",
+    "link": "https://shingeki-theta.vercel.app/characters",
     "github": "https://github.com/Pablodr89/shingeki.git"
   }
 ]

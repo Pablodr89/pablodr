@@ -18,7 +18,7 @@ export default function PersonalProjectCard({
       <div className="aspect-video w-full overflow-hidden">
         <img
           className="w-full h-full object-cover  transition-all duration-700 group-hover:scale-105"
-          alt="pokemon-logo"
+          alt="image project"
           src={image}
         />
       </div>
