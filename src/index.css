@@ -63,6 +63,20 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.animate-in {
+  animation: animateIn 0.3s ease-in-out both;
+}
+
+@keyframes animateIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .glass-nav {
   background: rgba(45, 52, 73, 0.6);
   backdrop-filter: blur(20px);

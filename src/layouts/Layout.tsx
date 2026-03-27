@@ -6,7 +6,7 @@ export default function Layout() {
     <>
       <Navbar />
 
-      <main>
+      <main className="animate-in">
         <Outlet />
       </main>
     </>
