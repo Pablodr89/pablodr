@@ -14,7 +14,7 @@
     "github": "https://github.com/Pablodr89/prueba-velora"
   },
   {
-    "title": "Shingeki No Kyojin API (En desarrollo)",
+    "title": "Shingeki No Kyojin API",
     "image": "/attack-on-titan-logo.svg",
     "description": "Listado de personajes de Attack on Titan con filtrado y detalle de cada personaje.",
     "stack": [
